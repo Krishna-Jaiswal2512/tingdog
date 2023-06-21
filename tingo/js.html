@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT VALIDATION</title>
+</head>
+<body>
+    <input id="numb">
+    <button type="button" onclick="myfunction()">SUBMIT</button>
+    <p id="demo"></p>
+    <button type="button" onclick="urfunction()">ALERT</button>
+    <script>
+        function myfunction()
+        {
+            // get the value of the input field with id ="numb"
+            let x = document.getElementById("numb").value;
+            // x is not a number if less than zero or greater than 10
+            let text;
+            if(isNaN(x)|| x<1 || x>10)
+            {
+                text = "Input not valid";
+            }
+            else
+            {
+                text = "Input Is valid";
+            }
+            document.getElementById("demo").innerHTML = text;
+
+            // Alert display using java script
+
+        }
+        function urfunction()
+        {
+            alert("this is a alert box");
+        }
+    </script>
+</body>
+</html>

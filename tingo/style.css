@@ -1,0 +1,94 @@
+body {
+    /* background-color: red; */
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: Alkatra;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.navbar-brand {
+    font-family: Alkatra;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.dog-img {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.nav-link {
+    color: white;
+}
+
+.apple-img {
+    width: 25px;
+    height: auto;
+}
+
+#testimonials {
+    background-color: orange;
+    padding: 7% 15%;
+    align-items: center;
+}
+
+.doggie {
+    border-radius: 70%;
+    width: 100px;
+    margin: 10px;
+}
+
+.press {
+    padding-left: 300px;
+    ;
+    align-items: center;
+    display: flex;
+    gap: 4px;
+}
+
+.carousel-item {
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.brand-img {
+    width: 100px;
+    margin-left: 132px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+@media(max-width:1020px) {
+    .dog-img {
+        transform: rotate(0)
+    }
+}
+
+#cta {
+    background-color: rgb(200, 72, 72);
+    padding: 100px;
+    text-align: center;
+}
+
+.fotter-btn {
+    margin: 30px;
+    border-radius: 15px;
+    width: 138px;
+    height: 46px;
+    padding: 10px;
+}
